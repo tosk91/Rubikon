@@ -1,4 +1,4 @@
-Ruby group for Team.Rubikon:
+Ruby group for new eSports team Team.Rubikon:
 1. V**** Š********
 2. H***** M********
 3. T**** S**********
