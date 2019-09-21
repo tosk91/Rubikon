@@ -1,19 +1,24 @@
-# def Kodavimas(simbolis, raktas)
-#   if !simbolis.IsLetter
-# end
-
-def letter?(simbolis)
-  simbolis =~ /[A-Za-z]/
+def letter?(item)
+  item =~ /[A-Za-z]/
 end
-def numeric?(simbolis)
-  simbolis =~ /[0-9]/
+def numeric?(item)
+  item =~ /[0-9]/
 end
-
-abc = numeric?('a')
-if letter?(abc)
-  puts abc
+def upper?(item)
+  item =~ /[A-Z]/
 end
 
+def Kodavimas(item, key)
+  @item = item
+  @key = key
+  if !letter?(@item)
+    return @item
+  end
+    if upper?(@item)
+      return (((@item.ord + key) - 65) % 26 + 65).chr;
+    end
+    return (((@item.ord + key) - 97) % 26 + 97).chr;
+end
 # private char Kodavimas(char simbolis, int raktas)
 #         {
 #             if (!char.IsLetter(simbolis))
