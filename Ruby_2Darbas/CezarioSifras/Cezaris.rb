@@ -1,4 +1,14 @@
 class Cezaris
+  def letter?(item)
+    item =~ /[A-Za-z]/
+  end
+  def numeric?(item)
+    item =~ /[0-9]/
+  end
+  def upper?(item)
+    item =~ /[A-Z]/
+  end
+
   def Kodavimas(item, key)
     @item = item
     @key = key
@@ -12,12 +22,14 @@ class Cezaris
   end
 
   def UzkoduokMane(input, raktas)
-    output = "";
-    if output == ""
+    @input = input
+    @raktas = raktas
+    output = ''
+    if @input == ''
       return output
     end
     for ch in @input
-      if ch == " "
+      if ch == ' '
         
       else
           output += Kodavimas(ch, @raktas)
@@ -32,6 +44,6 @@ class Cezaris
 end
 
 tekstas = "aaa"
-raktas = "2"
+raktas = 2
 cezarioKodas = Cezaris.new
 puts cezarioKodas.UzkoduokMane(tekstas,raktas)

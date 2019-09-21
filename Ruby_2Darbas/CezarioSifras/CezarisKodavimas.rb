@@ -19,6 +19,8 @@ def Kodavimas(item, key)
     end
     return (((@item.ord + key) - 97) % 26 + 97).chr;
 end
+
+puts Kodavimas("d", 2)
 # private char Kodavimas(char simbolis, int raktas)
 #         {
 #             if (!char.IsLetter(simbolis))
