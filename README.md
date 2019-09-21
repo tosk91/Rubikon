@@ -1,4 +1,4 @@
-Ruby group for:
-1. Vidas Šalavėjus
-2. Henryk Markowski
-3. Tomas Skamaročius
+Ruby group for Team.Rubikon:
+1. V**** Š********
+2. H***** M********
+3. T**** S**********
