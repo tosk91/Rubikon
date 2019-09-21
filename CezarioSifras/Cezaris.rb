@@ -10,4 +10,28 @@ class Cezaris
       end
       return (((@item.ord + key) - 97) % 26 + 97).chr;
   end
+
+  def UzkoduokMane(input, raktas)
+    output = "";
+    if output == ""
+      return output
+    end
+    for ch in @input
+      if ch == " "
+        
+      else
+          output += Kodavimas(ch, @raktas)
+      end
+    end
+    return output
+  end
+
+  def AtkoduokMane(input, raktas)
+    UzkoduokMane(@input, 26-@raktas)
+  end
 end
+
+tekstas = "aaa"
+raktas = "2"
+cezarioKodas = Cezaris.new
+puts cezarioKodas.UzkoduokMane(tekstas,raktas)
