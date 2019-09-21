@@ -1,14 +1,13 @@
+def letter?(item)
+  item =~ /[A-Za-z]/
+end
+def numeric?(item)
+  item =~ /[0-9]/
+end
+def upper?(item)
+  item =~ /[A-Z]/
+end
 class Cezaris
-  def letter?(item)
-    item =~ /[A-Za-z]/
-  end
-  def numeric?(item)
-    item =~ /[0-9]/
-  end
-  def upper?(item)
-    item =~ /[A-Z]/
-  end
-
   def Kodavimas(item, key)
     @item = item
     @key = key
@@ -44,7 +43,9 @@ class Cezaris
   end
 end
 
-tekstas = "abc"
-raktas = 2
+puts "Iveskite teksta: "
+tekstas = gets
+puts "Iveskite rakta: "
+raktas = gets
 cezarioKodas = Cezaris.new
-puts cezarioKodas.UzkoduokMane(tekstas,raktas)
+puts cezarioKodas.UzkoduokMane(tekstas, raktas.to_i)
