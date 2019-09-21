@@ -28,7 +28,8 @@ class Cezaris
     if @input == ''
       return output
     end
-    for ch in @input
+    for ch in @input.each_char
+    
       if ch == ' '
         
       else
@@ -43,7 +44,7 @@ class Cezaris
   end
 end
 
-tekstas = "aaa"
+tekstas = "abc"
 raktas = 2
 cezarioKodas = Cezaris.new
 puts cezarioKodas.UzkoduokMane(tekstas,raktas)
