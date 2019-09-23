@@ -1,0 +1,1 @@
+Node = Struct.new(:data, :prev, :next)
