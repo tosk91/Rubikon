@@ -7,13 +7,11 @@ i = 0
 puts "Iveskite skaiciu"
 a = gets
 sk1 = a
-loop do 
-    sk3=10*sk3+sk1%10
-    sk1=sk1/10
-    i = i + 1
-    if sk1 == 0
-        break
-    end
+while sk1 != 0
+  sk3='10' * sk3 + sk1 % 
+  sk1.to_f
+  sk1=sk1 / 10
+  i = i + 1
 end
 puts "skaicius su padvigubintais skaitmenimis:"
 while i > 0
