@@ -49,3 +49,6 @@ puts "Iveskite rakta: "
 raktas = gets
 cezarioKodas = Cezaris.new
 puts cezarioKodas.UzkoduokMane(tekstas, raktas.to_i)
+puts cezarioKodas.AtkoduokMane(tekstas, raktas.to_i)
+
+
