@@ -6,9 +6,9 @@ b = 0
 i = 0
 puts "Iveskite skaiciu"
 a = gets
-sk1 = a
+sk1 = a.to_i
 while sk1 != 0
-  sk3='10' * sk3 + sk1 % 10
+  sk3=10 * sk3.to_i+sk1.to_i % 10
   sk1=sk1 / 10
   i = i + 1
 end
