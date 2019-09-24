@@ -8,8 +8,7 @@ puts "Iveskite skaiciu"
 a = gets
 sk1 = a
 while sk1 != 0
-  sk3='10' * sk3 + sk1 % 
-  sk1.to_f
+  sk3='10' * sk3 + sk1 % 10
   sk1=sk1 / 10
   i = i + 1
 end
