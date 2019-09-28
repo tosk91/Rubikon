@@ -75,6 +75,33 @@ class LinkedList
       end
     end
   end
+
+  def add_before(value, node = @head)
+    added = false
+    if node == nil
+      puts "The list is not created."
+    elsif node.data == value
+      add_first(999)
+    else
+      node = node.next
+      while node != nil do
+        if node.data == value
+          newNode = Node.new(999, nil, nil)
+          newNode.next = node
+          newNode.prev = node.prev
+          node.prev.next = newNode
+          node.prev = newNode
+          added = true
+          puts "Added a new node before a node with a value of #{value}."
+          break
+        end
+        node = node.next
+      end
+      if added == false
+        puts "There is no such value in this list."
+      end
+    end
+  end
   
   def del_first(node = @head)
     if node != nil && node.next != nil
@@ -153,6 +180,27 @@ class LinkedList
     end
   end
 
+  def seek(value, node = @head)
+    found = false
+    counter = 0
+    if node != nil
+      while node != nil do
+        if node.data == value
+          puts "The node with a value of #{value} is in #{counter} position."
+          found = true
+          break
+        end
+        counter = counter + 1
+        node = node.next
+      end
+    else
+      puts "The list is not created."
+    end
+    if found == false
+      puts "There is no node with a value of #{value} in this list."
+    end
+  end
+
   def print_forward(node = @head)
     if node == nil
       puts "The list does not exist. Please create a new one."
@@ -213,6 +261,14 @@ theList.print_backwards(); puts ""
 # theList.print_backwards(); puts ""
 
 # theList.add_pos(0)
+# theList.print_forward()
+# theList.print_backwards(); puts ""
+
+# theList.add_before(7)
+# theList.print_forward()
+# theList.print_backwards(); puts ""
+
+# theList.seek(6)
 # theList.print_forward()
 # theList.print_backwards(); puts ""
 
