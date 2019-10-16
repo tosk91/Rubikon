@@ -1,9 +1,9 @@
+# frozen_string_literal: true
+
 x = 1
 
-for i in 10..20 do
-  if i%2==0
-    x=x*i
-  end
+(10..20).each do |i|
+  x *= i if i.even?
 end
 
 puts "Intervalo [10;20] lyginiu skaiciu sandauga #{x}"

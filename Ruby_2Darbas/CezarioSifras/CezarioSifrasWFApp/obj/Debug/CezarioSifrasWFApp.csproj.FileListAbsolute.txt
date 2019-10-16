@@ -18,3 +18,13 @@ D:\OneDrive - Vilniaus kolegija\2_Kursas\Informacijos Saugumas\Saugumas\CezarioS
 D:\OneDrive - Vilniaus kolegija\2_Kursas\Informacijos Saugumas\Saugumas\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.csproj.CoreCompileInputs.cache
 D:\OneDrive - Vilniaus kolegija\2_Kursas\Informacijos Saugumas\Saugumas\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.exe
 D:\OneDrive - Vilniaus kolegija\2_Kursas\Informacijos Saugumas\Saugumas\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.pdb
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\bin\Debug\CezarioSifrasWFApp.exe.config
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\bin\Debug\CezarioSifrasWFApp.exe
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\bin\Debug\CezarioSifrasWFApp.pdb
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.csprojAssemblyReference.cache
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.Form1.resources
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.Properties.Resources.resources
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.csproj.GenerateResource.cache
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.csproj.CoreCompileInputs.cache
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.exe
+C:\Users\Vidas\Documents\GitHub\Ruby_2Darbas\Ruby_2Darbas\CezarioSifras\CezarioSifrasWFApp\obj\Debug\CezarioSifrasWFApp.pdb
