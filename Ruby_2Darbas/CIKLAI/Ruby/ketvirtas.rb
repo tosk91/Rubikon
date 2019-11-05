@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def Palindromas()
+def Palindromas
   i = x = 1
   while i <= 1
     x1 = x2 = 0
@@ -23,5 +23,5 @@ def Palindromas()
     end
     x += 1
   end
-  return x2
+  x2
 end

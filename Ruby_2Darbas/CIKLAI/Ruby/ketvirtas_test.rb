@@ -1,9 +1,10 @@
-require_relative "ketvirtas"
-require "minitest/autorun"
+# frozen_string_literal: true
 
-describe "ketvirtas_test" do
+require_relative 'ketvirtas'
+require 'minitest/autorun'
 
-    it "Palindromas" do
-        Palindromas().must_equal 1
-end
+describe 'ketvirtas_test' do
+  it 'Palindromas' do
+    Palindromas().must_equal 1
+  end
 end

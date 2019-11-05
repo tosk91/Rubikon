@@ -1,9 +1,10 @@
-require_relative "penktas"
-require "minitest/autorun"
+# frozen_string_literal: true
 
-describe "penktas_test" do
+require_relative 'penktas'
+require 'minitest/autorun'
 
-    it "Palindromas" do
-        DalybaIsSavoSkaitmens().must_equal 66
-end
+describe 'penktas_test' do
+  it 'Palindromas' do
+    DalybaIsSavoSkaitmens().must_equal 66
+  end
 end

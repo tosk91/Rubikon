@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def DalybaIsSavoSkaitmens()
+def DalybaIsSavoSkaitmens
   k = 0
   x = 1
   while k < 20
@@ -26,5 +26,5 @@ def DalybaIsSavoSkaitmens()
     end
     x += 1
   end
-  return x -= 1
+  x -= 1
 end

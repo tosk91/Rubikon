@@ -10,12 +10,12 @@ def DvigubasSkaitmenys(a)
     sk1 /= 10
     i += 1
   end
-  puts 'skaicius su padvigubintais skaitmenimis:'
+  # puts 'skaicius su padvigubintais skaitmenimis:'
   while i.positive?
     sk2 = sk2 * 100 + (sk3 % 10) * 10 + (sk3 % 10)
     sk3 /= 10
     i -= 1
   end
-  #puts sk2
-  return sk2
+  # puts sk2
+  sk2
 end

@@ -1,9 +1,10 @@
-require_relative "antras"
-require "minitest/autorun"
+# frozen_string_literal: true
 
-describe "antras_test" do
+require_relative 'antras'
+require 'minitest/autorun'
 
-    it "Dvigubas" do
-        DvigubasSkaitmenys(2).must_equal 22
-end
+describe 'antras_test' do
+  it 'Dvigubas' do
+    DvigubasSkaitmenys(2).must_equal 22
+  end
 end
