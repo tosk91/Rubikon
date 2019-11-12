@@ -16,8 +16,13 @@
     <div class="w3-bar w3-black">
       <%= link_to('Home', '/', {class: 'w3-bar-item w3-button'}) %>
       <%= link_to('About', '/aboutit', {class: 'w3-bar-item w3-button'}) %>
-      <%= link_to('Secret', '/secret', {class: 'w3-bar-item w3-button'}) %>
+      <%= link_to('Data', '/data', {class: 'w3-bar-item w3-button'}) %>
       <%= link_to('EIF', 'https://eif.viko.lt/', {class: 'w3-bar-item w3-button'}) %>
+    </div>
+    <div class="w3-container">
+        <h2><%= @page_title %></h2>
+        <hr/>
+        <%= yield %>
     </div>
   </body>
 </html>
