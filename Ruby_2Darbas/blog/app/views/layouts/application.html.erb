@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>App</title>
     <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   </head>
 
   <body>
-    <%= yield %>
+    <div class="w3-bar w3-black">
+      <%= link_to('Home', '/', {class: 'w3-bar-item w3-button'}) %>
+      <%= link_to('About', '/aboutit', {class: 'w3-bar-item w3-button'}) %>
+      <%= link_to('Secret', '/secret', {class: 'w3-bar-item w3-button'}) %>
+      <%= link_to('EIF', 'https://eif.viko.lt/', {class: 'w3-bar-item w3-button'}) %>
+    </div>
   </body>
 </html>
